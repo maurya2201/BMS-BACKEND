@@ -21,7 +21,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://bms-frontend-theta.vercel.app/",
+    origin: "https://bms-frontend-theta.vercel.app",
   })
 );
 
